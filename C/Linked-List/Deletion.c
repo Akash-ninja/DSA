@@ -53,7 +53,7 @@ int main()
                 printf("Cannot delete, List is empty \n");
             else
             {
-                printf("%d data deleted \n", x);
+                printf("Element deleted is - %d \n", x);
             }
             display(head);
             break;
@@ -71,7 +71,7 @@ int main()
                 printf("Cannot delete, List is empty \n");
             else
             {
-                printf("%d data deleted \n", x);
+                printf("Element deleted is - %d \n", x);
             }
             display(head);
             break;
@@ -84,7 +84,7 @@ int main()
                 printf("Cannot delete, List is empty \n");
             else
             {
-                printf("%d data deleted \n", x);
+                printf("Element deleted is - %d \n", x);
             }
             display(head);
             break;

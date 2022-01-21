@@ -6,11 +6,12 @@ struct Node
 {
     int data;
     struct Node *next;
-} *head = NULL; // Global pointer
+} *head = NULL, *last = NULL; // Global pointer
 
 void display(struct Node *p);
 int countNodes(struct Node *p);
 void insert(int value, int pos);
+void insertLast(int value);
 
 int main()
 {
@@ -24,17 +25,18 @@ int main()
         printf("1. Insert at first position \n");
         printf("2. Insert at Any position \n");
         printf("3. Insert at Last position \n");
-        printf("4. Display my list \n");
-        printf("5. Exit \n");
+        printf("4. Create List using Insertion at last \n");
+        printf("5. Display my list \n");
+        printf("6. Exit \n");
         printf("Enter operation no.: ");
         scanf("%d", &op);
 
         switch (op)
         {
         case 1:
-            printf("Inserting in first position... \n");
             printf("Please enter data: ");
             scanf("%d", &value);
+            printf("Inserting in first position... \n");
             insert(value, 0);
             display(head);
             break;
@@ -52,21 +54,30 @@ int main()
             insert(value, pos);
             display(head);
             break;
-        
+
         case 3:
-            printf("Inserting in last position... \n");
             printf("Please enter data: ");
             scanf("%d", &value);
+            printf("Inserting in last position... \n");
             pos = countNodes(head);
             insert(value, pos);
             display(head);
             break;
 
         case 4:
+            printf("Please enter data: ");
+            scanf("%d", &value);
+            printf("Creating list... \n");
+            insertLast(value);
+            printf("List created successfully... \n");
             display(head);
             break;
 
         case 5:
+            display(head);
+            break;
+
+        case 6:
             return 0;
 
         default:
@@ -131,5 +142,23 @@ void insert(int value, int pos)
         }
         temp->next = p->next;
         p->next = temp;
+    }
+}
+
+// Will only work when list is not created
+void insertLast(int value)
+{
+    struct Node *temp;
+
+    temp = CREATE_NODE;
+    temp->data = value;
+    temp->next = NULL;
+
+    if (head == NULL)
+        head = last = temp;
+    else
+    {
+        last->next = temp;
+        last = temp;
     }
 }
