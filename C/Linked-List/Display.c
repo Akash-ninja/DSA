@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define CREATE_NODE (struct Node *)malloc(n * sizeof(struct Node))
+#define CREATE_NODE (struct Node *)malloc(1 * sizeof(struct Node))
 
 struct Node
 {
