@@ -34,13 +34,12 @@ int main()
         switch (op)
         {
         case 1:
-            printf("Enter no. of values you want to enter: \n");
+            printf("Enter no. of values you want to enter: ");
             scanf("%d", &n);
-            printf("Enter values (with spaces): \n");
+            printf("Enter values (with spaces): ");
             for (int i = 0; i < n; i++)
-            {
                 scanf("%d", &arr[i]);
-            }
+
             createList(arr, n);
             printf("Linked list created successfully... \n");
             display(head);
@@ -61,7 +60,7 @@ int main()
         case 3:
             printf("Please enter the position: ");
             scanf("%d", &pos);
-            if (pos >= countNodes(head))
+            if (pos > countNodes(head))
             {
                 printf("Position not available. Please try again. \n");
                 break;
@@ -79,13 +78,15 @@ int main()
         case 4:
             printf("Deleting in last position... \n");
             pos = countNodes(head);
+            printf("position: %d \n", pos);
+
             x = deletion(pos);
+
             if (x == -1)
                 printf("Cannot delete, List is empty \n");
             else
-            {
                 printf("Element deleted is - %d \n", x);
-            }
+
             display(head);
             break;
 
@@ -137,11 +138,9 @@ int deletion(int pos)
     struct Node *p, *q;
 
     if (head == NULL)
-    {
         return deletedData;
-    }
 
-    if (pos == 0)
+    if (pos == 0 || countNodes(head) == 1)
     {
         p = head;
         head = head->next;
