@@ -15,6 +15,7 @@ function IBinarySearch(arr, key) {
 }
 
 /* Tail recursion used - can be coverted to iteration easily */
+/* Since recursion uses stack so iteration is quite efficient here */
 function RBinarySearch(arr, low, high, key) {
   if (low <= high) {
     let mid = Math.floor((low + high) / 2)
