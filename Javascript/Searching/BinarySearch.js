@@ -1,3 +1,5 @@
+/* Array should be sorted for Binary search */
+
 function IBinarySearch(arr, key) {
   let low = 0,
     high = arr.length - 1,
