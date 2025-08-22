@@ -6,6 +6,8 @@ This repository is dedicated for -
 - learning proven patterns to solve problems in DSA
 - centralized place for storing various problems and solutions encountered in Interviews and Coding competitive platforms.
 
+---
+
 ## For running code -
 
 For any lanuages, install this extension to run code in VS code easily -
@@ -20,7 +22,9 @@ Standing in root i.e., Python/, you need to run - </br>
 `python -m Stack.fundamentals.stack_using_linked_list` </br>
 because of its importing system
 
-### Some points about Python
+---
+
+### Some points about Python -
 
 1. **Import system**-
 
@@ -39,6 +43,8 @@ because of its importing system
    **Module** - contains collections of functions and global variables </br>
    **Package** - Simple directory having collection of modules</br>
    **Script** - executed directly with main function in it.
+
+---
 
 ### 🤝 Contributing
 
