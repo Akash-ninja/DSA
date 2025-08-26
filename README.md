@@ -8,7 +8,7 @@ This repository is dedicated for -
 
 ***
 
-### For running code -
+### For running code
 
 For any lanuages, install this extension to run code in VS code easily -
 
@@ -24,7 +24,7 @@ because of its importing system
 
 ***
 
-### Some points about Python -
+### Some points about Python
 
 1. **Import system**-
 
@@ -58,7 +58,7 @@ Contributions are welcome!
 
 ***
 
-### List of Problems - 
+### List of Problems
 
 1. **Array-**
 ```
