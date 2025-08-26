@@ -8,7 +8,7 @@ This repository is dedicated for -
 
 ***
 
-## For running code -
+### For running code -
 
 For any lanuages, install this extension to run code in VS code easily -
 
