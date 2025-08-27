@@ -119,8 +119,13 @@ Contributions are welcome!
 ```
 1. Stack as array (in-built language push, pop methods - no script)
 2. Stack as linked list
-3. Vali parenthesis
+3. Valid parenthesis
 4. Min Stack
 5. Next Greater Element II
 6. Merge Intervals
+```
+
+7. **Queue-**
+```
+1. Queue as linked list
 ```
