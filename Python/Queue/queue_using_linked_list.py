@@ -11,7 +11,7 @@ class Queue:
         self.size = 0
 
     # insertion happens at the back
-    def add(self, element):
+    def enqueue(self, element):
         new_node = Node(element)
         if not self.head:
             self.head = new_node
@@ -22,7 +22,7 @@ class Queue:
         self.size += 1
 
     # deletion happens at the front
-    def remove(self):
+    def dequeue(self):
         if self.head:
             self.head = self.head.next
             if not self.head:
@@ -40,10 +40,10 @@ class Queue:
 
 
 q = Queue()
-q.add(400)
-q.add(200)
-q.add(300)
+q.enqueue(400)
+q.enqueue(200)
+q.enqueue(300)
 
 while not q.isEmpty():
     print(f"Front element of queue is: {q.peek()}")
-    q.remove()
+    q.dequeue()
