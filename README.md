@@ -129,3 +129,14 @@ Contributions are welcome!
 ```
 1. Queue as linked list
 ```
+
+8. **Binary Search-**
+```
+1. Binary search implementation
+2. Search Insert Position
+3. Find first and Last position of element in sorted array
+4. Search in a rotated sorted array
+5. KoKo Eating Bananas
+6. Magnetic Force Between Two Balls
+```
+
