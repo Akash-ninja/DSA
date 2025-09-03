@@ -13,7 +13,7 @@ def binary_search_rec(arr, start, end, key):
 
         if key == arr[mid]:
             return mid
-        elif key > arr[mid]:
+        elif arr[mid] < key:
             return binary_search_rec(arr, mid + 1, end, key)
         else:
             return binary_search_rec(arr, start, mid - 1, key)
@@ -26,9 +26,9 @@ def binary_search(arr, start, end, key):
     while start <= end:
         mid = math.floor((start + end) / 2)
 
-        if key == arr[mid]:
+        if arr[mid] == key:
             return mid
-        elif key < arr[mid]:
+        elif arr[mid] > key:
             end = mid - 1
         else:
             start = mid + 1

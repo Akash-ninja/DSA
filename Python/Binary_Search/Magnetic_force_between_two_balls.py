@@ -28,8 +28,8 @@ class Solution:
         """
         position.sort()
 
-        start = 1
-        end = position[-1]
+        start = 1  # min distance between two balls
+        end = position[-1] - position[0]
         ans = 1
 
         while start <= end:
