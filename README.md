@@ -6,7 +6,7 @@ This repository is dedicated for -
 - learning proven patterns to solve problems in DSA
 - centralized place for storing various problems and solutions encountered in Interviews and Coding competitive platforms.
 
-***
+---
 
 ### For running code
 
@@ -22,7 +22,7 @@ Standing in root i.e., Python/, you need to run - </br>
 `python -m Stack.fundamentals.stack_using_linked_list` </br>
 because of its importing system
 
-***
+---
 
 ### Some points about Python
 
@@ -44,7 +44,7 @@ because of its importing system
    **Package** - Simple directory having collection of modules</br>
    **Script** - executed directly with main function in it.
 
-***
+---
 
 ### 🤝 Contributing
 
@@ -56,13 +56,14 @@ Contributions are welcome!
 4. Push to your branch (git push origin feature-branch)
 5. Open a Pull Request
 
-***
+---
 
 ### List of Problems
 
 1. **Array-**
+
 ```
-1. Max-Consecutive Ones 
+1. Max-Consecutive Ones
 2. Best time to buy and sell a stock
 3. Product of Array except self
 4. Maximum Sum Subarray
@@ -70,6 +71,7 @@ Contributions are welcome!
 ```
 
 - **2D array(Matrix)-**
+
 ```
 1. Set Matrix 0’s
 2. Valid Sudoku
@@ -78,6 +80,7 @@ Contributions are welcome!
 ```
 
 2. **Two Pointers-**
+
 ```
 1. Trapping Rain Water
 2. Two Sum II (Input array is sorted)
@@ -86,14 +89,16 @@ Contributions are welcome!
 ```
 
 3. **Sorting-**
+
 ```
 1. Sort Colors
 2. Majority Element
-3. Move Zeroes 
+3. Move Zeroes
 4. Find the duplicate Number
 ```
 
 4. **Linked list-**
+
 ```
 1. Linked list operations (in fundamentals folder)
 2. Linked list cycle
@@ -106,8 +111,9 @@ Contributions are welcome!
 ```
 
 5. **Hash Table-**
+
 ```
-1. Two Sum 
+1. Two Sum
 2. Three sum
 3. Valid Anagram
 4. Longest consecutive sequence (time limit failing)
@@ -116,6 +122,7 @@ Contributions are welcome!
 ```
 
 6. **Stacks-**
+
 ```
 1. Stack as array (in-built language push, pop methods - no script)
 2. Stack as linked list
@@ -126,11 +133,13 @@ Contributions are welcome!
 ```
 
 7. **Queue-**
+
 ```
 1. Queue as linked list
 ```
 
 8. **Binary Search-**
+
 ```
 1. Binary search implementation
 2. Search Insert Position
@@ -140,3 +149,25 @@ Contributions are welcome!
 6. Magnetic Force Between Two Balls
 ```
 
+9. **Binary Tree-**
+
+```
+1. Binary Tree Inorder Traversal
+2. Maximum Depth of Binary Tree
+3. Invert Binary Tree
+4. Binary Tree Level order traversal
+5. Diameter of a Binary Tree
+6. Invert a binary tree
+7. Path Sum II
+8. Cousins in a binary tree
+9. Maximum Level sum of binary tree
+10. Symmetric Tree
+11. Path Sum
+12. Balanced Binary Tree
+13. Binary Tree Right side view
+14. Construct a binary tree from traversals (preorder + inorder)
+15. Same Tree
+16. Subtree of another tree
+17. Sum of Left Leaves
+18. Count Good nodes in a binary tree
+```
