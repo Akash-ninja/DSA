@@ -171,3 +171,19 @@ Contributions are welcome!
 17. Sum of Left Leaves
 18. Count Good nodes in a binary tree
 ```
+
+10. **Heaps-**
+
+```
+1. Heap operations - Heap insertion and deletion
+2. K-th largest element in an array
+3. Find median from data stream
+```
+
+11. **Binary Search Tree-**
+
+```
+1. K-th smallest element in a BST
+2. Lowest Common Ancestor of a BST
+3. Validate BST
+```
