@@ -27,13 +27,11 @@ because of its importing system
 ### Some points about Python
 
 1. **Import system**-
-
    - Python has absolute and relative import system
 
    - Easily importing files which is nested inside folders is a bit of mess here.
 
 2. About `__init__.py` file -
-
    - It is created intentionally here - to mark directories on disk as Python package directories.
 
    - If you remove the init.py file, Python will no longer look for submodules inside that directory, so attempts to import the module will fail.
@@ -187,3 +185,24 @@ Contributions are welcome!
 2. Lowest Common Ancestor of a BST
 3. Validate BST
 ```
+
+12. **Dynamic Programming-**
+
+```
+1. Climbing Stairs
+2. Jump Game
+3. Coin changes
+4. Target Sum
+5. Longest Increasing Subsequence
+6. Longest Common Subsequence
+7. House Robber
+8. House Robber II
+9. Integer Replacement
+10. Decode ways
+11. Partition Equal Subset Sum
+12. Longest palindromic substring
+13. Min cost climbing stairs
+14. 0-1 Matrix (ToDo)
+```
+
+13. **Graphs**
