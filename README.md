@@ -205,4 +205,58 @@ Contributions are welcome!
 14. 0-1 Matrix (ToDo)
 ```
 
-13. **Graphs**
+13. **Graphs-**
+
+```
+For weighted and unweighted graphs -
+1. Adjacency Matrix
+2. Adjacency List
+
+Traversals -
+1. BFS
+2. DFS (Iterative + Recursive)
+3. Cycle detection (back-edge in DFS)
+
+Concepts -
+1. Topological ordering
+2. Single source shortest Path -
+    1. Dijkstra's Algo (ToDo)
+    2. Bellman Ford Algo
+3. Minimal cost spanning tree
+
+Problems -
+1. Course Schedule
+2. Number of Islands
+3. Find the town judge
+4. Surrounded Regions
+5. Number of Enclaves
+6. Flood Fill
+7. Network Delay time (ToDo)
+```
+
+14. **Sliding Window-**
+
+```
+1. Longest Substring Without Repeating Characters
+2. Sliding Window Maximum
+```
+
+15. **BitMagic-**
+
+```
+1. Single Number
+2. Counting Bits
+3. Sum of Two Integers
+4. Missing Numbers
+5. Divide Two Integers
+6. Reverse Integer
+7. Number of 1 Bits
+```
+
+16. **Backtracking-**
+
+```
+1. Subsets
+2. Combination Sum
+3. N Queens
+```
