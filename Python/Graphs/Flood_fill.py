@@ -5,7 +5,7 @@ class Solution:
             or col < 0
             or row >= len(image)
             or col >= len(image[0])
-            or image[row][col] != old_color  # same as old color then no need to change
+            or image[row][col] != old_color  # change only the attached cells of starting pixel and not others
         ):
             return None
 
