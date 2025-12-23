@@ -28,7 +28,7 @@ class Solution:
                 if board[i][j] == "O":
                     board[i][j] = "P"
 
-        # 2. traverse boundary attached 'O' and convert to 'P'
+        # 2. now, convert all the boundary attached 'P' to 'O'
         # 1st row
         for j in range(0, col):
             self.dfs(0, j, board)
