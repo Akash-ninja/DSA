@@ -16,7 +16,6 @@ class BasicMaths:
 
         return answer
 
-    # TODO
     def reverse_integer(self, num):
         answer = 0
         copiedNum = num
